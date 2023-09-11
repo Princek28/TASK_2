@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" type="x-icon" href="portfoliologo.png">
+
+
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        body {
+            background-color: #081b29;
+            color: #ededed;
+
+        }
+
+        .container {
+            margin-top: 180px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        a:hover {
+            color: rgb(13, 148, 221);
+        }
+
+        img {
+            transition: 1.5s all;
+        }
+
+        img:hover {
+            box-shadow: 5px 5px 80px 5px rgb(225, 220, 220);
+        }
+
+
+        .hover-3 {
+            --c: #1095c1;
+            line-height: 1.2em;
+            background:
+                conic-gradient(from -135deg at 100% 50%, var(--c) 90deg, #0000 0) 0 var(--p, 0%)/var(--s, 0%) 200% no-repeat,
+                conic-gradient(from -135deg at 1.2em 50%, #0000 90deg, var(--c) 0) 100% var(--p, 0%)/var(--s, 0%) 200% no-repeat;
+            transition: .4s ease-in, background-position 0s;
+        }
+
+        .hover-3:hover {
+            --p: 100%;
+            --s: calc(50% + .61em);
+            /* border-radius: 10px; */
+        }
+
+
+        .home-sci a {
+            position: relative;
+            display: inline-flex;
+            width: 40px;
+            border-radius: 25px;
+            height: 40px;
+            justify-content: center;
+            align-items: center;
+            background: transparent;
+            font-size: 20px;
+            color: #00abf0;
+            border: 2px solid #ffffff;
+            text-decoration: none;
+            z-index: 1;
+            overflow: hidden;
+            transition: .5s;
+        }
+
+        .home-sci a:hover {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row justify-content-end">
+            <div class="col-md-4">
+                <a href="Home.html" class="m-4">Home</a>
+                <a href="Expreriance.html" class="m-4">Experiance</a>
+                <a href="portfolio.html" class="m-4">Porfolio</a>
+                <a href="contactus.html" class="m-4">Contact</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="hover-3 m-3">Hi, I am Prince Kalariya</h1>
+                <div class="h3 text-info m-3"><i><u>Full-Stack Devloper</u></i></div>
+                <p class="m-3 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam minus explicabo
+                    voluptas tenetur
+                    inventore aut facere quasi, nobis id beatae suscipit error iste quae ullam?</p>
+
+                <button type="button" class=" m-3 btn btn-outline-danger bg-info text-light border-3 text-dark">Hire
+                    Me</button>
+                <button type="button" class="m-3 btn btn-outline-danger bg-info text-light border-3 text-dark">Let's
+                    Talk</button>
+
+                <div class="home-sci m-3">
+                    <a href="" id=""><i class='bx bxs-envelope'></i></i></a>&nbsp;
+                    <a href="https://www.linkedin.com/in/prince-kalariya-84b349206/" target="_blank" id=""><i
+                            class='bx bxl-linkedin'></i></a>&nbsp;
+                    <a href="https://www.whatsapp.com/" id=""><i class='bx bxl-whatsapp'></i></a>&nbsp;
+                </div>
+            </div>
+            <div class="col-md-6">
+               <center> <img src="My Pic.jpg " width="460px" class="rounded-circle img-fluid" alt="image"></center>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
